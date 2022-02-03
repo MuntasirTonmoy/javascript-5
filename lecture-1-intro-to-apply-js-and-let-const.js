@@ -61,6 +61,20 @@ function isMoonUp() {
 };
 console.log(isMoonUp());
 
+// varible related topic let and const
+
+//* value of the variable can change
+var price = 25;
+price = 58;
+//price can be change 
+//then let it change means we will use let instead of var
+let newPrice = 25;
+
+//* if value cant be change then use const
+
+const PI = 3.14; //const variable cant be change.
+
+
 
 
 
